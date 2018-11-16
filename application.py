@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 numHist = 0
 
-
+# This is a comment to test git
 @app.after_request
 def after_request(response):
     """Disable caching"""
