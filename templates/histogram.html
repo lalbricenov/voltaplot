@@ -4,13 +4,13 @@
     <!-- col-lg-6 means that it will be stacked from the smallest
      screens up to the beggining of large screens. From that point
      there will be two columns of equal width-->
-    <div class="col-lg-6">
+    <div class="col-lg-7">
         <img src="{{histFile}}" class="img-fluid" alt="Histogram">
         <a href="{{histFile}}" download>
 	        <button class="btn btn-success">Descargar</button>
         </a>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-4">
         <form action="/histogram" enctype="multipart/form-data" method="post">
             <div class="form-group">
                 <label for="dataFileInput">Archivo de datos</label>
